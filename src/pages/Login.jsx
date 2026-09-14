@@ -32,8 +32,8 @@ function Login({ role, onLogin, onBack }) {
 
           <input
             type="email"
-            placeholder="demo@sahayak.in"
-            defaultValue="demo@sahayak.in"
+            placeholder="vanshika272006@gmail.com"
+            defaultValue="vanshika272006@gmail.com"
             required
           />
 

@@ -13,11 +13,19 @@ function OrganizationDashboard({ onReport, onLogout }) {
         </div>
 
         <div className="dashboard-actions">
-          <button className="primary-btn" onClick={onReport}>
+          <button
+            className="primary-btn"
+            onClick={onReport}
+            type="button"
+          >
             Report Found Person →
           </button>
 
-          <button className="text-btn" onClick={onLogout}>
+          <button
+            className="text-btn"
+            onClick={onLogout}
+            type="button"
+          >
             Logout
           </button>
         </div>
